@@ -13,7 +13,7 @@ document.querySelector("#spawn").addEventListener("click", () => {
   tr.innerHTML = `
     <td class="tab-name">${tab.name}</td>
     <td>
-      <form name="${tab.name}">
+      <form name="${tab.name}" autocomplete="off">
         <label>
           Name
           <input type="text" name="name">
